@@ -11,7 +11,7 @@ namespace IonitaIsabelaLab11.Data
         HttpClient client;
 
         //se va modifica ulterior cu ip-ul si portul corespunzator
-        string RestUrl = "https://192.168.1.112:7294/swagger/";
+        string RestUrl = "https://192.168.1.112:45455/swagger/index.html";
         public List<ShopList> Items { get; private set; }
         public RestService()
         {
